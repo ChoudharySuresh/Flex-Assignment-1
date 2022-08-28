@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10rem;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 2rem;
+}
+.header img{
+    width: 17rem;
+    outline: none;
+    border-radius: 15px 0 0 0 ;
+}
+.footer{
+    display: flex;
+}
+.left-side_button{
+    display: flex;
+    gap: 1rem;
+    margin:6px;
+}
+.right-side_button-icon{
+    margin-left: auto;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+/* Styling to button */
+.left-side_button button{
+    padding: 7px;
+    margin: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: blueviolet;
+    font-weight:700;
+    outline: none;
+    border: none;
+    background: transparent;
+    transition: 0.5s;
+}
+.left-side_button button:hover{
+    background-color: #f2a2e8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.right-side_button-icon button{
+    color: #333333;
+    background: #dddddd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.right-side_button-icon button:hover{
+    cursor: pointer;
+    background: #cccccc;
+}
+.blue-color{
+    color:#0096ff;
+}
